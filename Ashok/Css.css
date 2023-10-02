@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head1{
+    background-color: rgb(199, 199, 243);
+    /* display: flex;
+    justify-content: center; */
+    /* width: 100%; */
+    height: 35px;
+}
+.he2{
+    display: flex;
+}
+.num{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+.btn{
+    margin-left: 800px;
+    margin-top: 0;
+}

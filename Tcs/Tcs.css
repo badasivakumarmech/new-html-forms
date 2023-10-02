@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.cover{
+    width: 100%;
+    height: 140vh;
+    background-color:aliceblue;
+    align-items: center;
+}   
+.navigation{
+    margin: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(49, 42, 42);
+    /* border: solid; */
+}
+#logo{
+    width: 200px;
+    height: 50px;
+    /* border: solid; */
+}
+.controls{
+    width: 550px;
+    height: 30px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    /* border: solid; */
+}
+.controls ul li{
+    display: inline-block; 
+    position: relative;
+    margin-left: 10px;
+}
+.controls ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.controls ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    margin-top: 30px;
+    background: rgb(181, 181, 203);
+    position: absolute;
+    left: 25%;
+    transition: 0.3s;
+}
+.controls ul li:hover::after{
+    width: 50%;
+}
+.contacts{
+    width: 500px;
+    height: 50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    /* border: solid; */
+}
+.contacts ul li{
+    display: inline-block;
+    position: relative;
+    margin-left: 15px;
+}
+.contacts ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.contacts ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    left: 0;
+    margin-top: 25px;
+    background: rgb(163, 163, 165);
+    position: absolute;
+    transition: 0.5s;
+
+}
+.contacts ul li:hover::after{
+    width: 100%;
+}
+.searchid{
+    background-image: url(https://www.tcs.com/etc.clientlibs/tcs/clientlibs/clientlib-site/resources/images/search-icon.svg);
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+#logo2{
+    margin-left: 10px;
+    width: 130px;
+    height: 150px;
+}
+.bodydiv{
+    border: solid;
+    width: 100%;
+    height: 550px;
+}
+.sliderdiv{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.imag_slide{
+    width: 100%;
+    height: 200px;
+}
+.footer{
+    display: inline-block;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(41, 28, 28);
+}
+.foot{
+    border: solid;
+    margin-left: 100px;
+    width: 100px;
+    padding: 20px;
+}
+.foot ul li{
+    position: relative;
+    list-style: none;
+    color: white;
+    padding: 4px;
+}
+.foot ul li a{
+    color: white;
+    
+    text-decoration: none;
+}
+.foot1{
+    border: solid;
+    margin-left: 50px;
+    padding: 20px;
+}
+.foot1 ul li{
+    position: relative;
+    list-style: none;
+    color: rgb(252, 5, 5);
+
+    padding: 3px;
+}
+.foot1 ul li span{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.foot1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.foot2{
+    border: solid;
+    margin-left: 100px;
+    width: 100px;
+    padding: 20px;
+}
+.foot2 ul li{
+    position: relative;
+    list-style: none;
+    color: white;
+    padding: 3px;
+}
+
+.foot2 ul li a{
+    color: white;
+    text-decoration: none;
+}

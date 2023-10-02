@@ -1,0 +1,38 @@
+.span123{
+    margin-left: 20px;
+    font-size: 15px;
+    color: white;
+}
+.logo{
+    background-color: black;
+}
+.heading12{
+    color: white;
+}
+.list-iteams .list-li{
+    color: white;
+    list-style: none;
+    margin-left: 20px;
+    text-align: left;
+}
+.navigations{
+     background-color: rgb(52, 33, 33);
+     
+    height: 5vh;
+    width: 420px;
+    margin-left: 27%;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: left;
+}
+.logo12{
+    width: 50px;
+}
+.nav-link{
+    color: white;
+}
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 300px;
+}
